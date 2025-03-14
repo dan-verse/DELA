@@ -1,0 +1,40 @@
+.dashboard-container {
+    padding-top: 5%;
+    display:inline-block;
+}
+
+.dashboard-container h2 {
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 25px;
+    color: #0077B6;
+}
+.dashboard-container ul {
+    list-style-type: none;
+}
+.dashboard-container a {
+    width: 200px;
+    height: 75px;
+    background: #0077B6;
+    margin: 40px 10px 5px 10px;
+    line-height: 80px;
+    float: left;
+    border-bottom: solid 5px #00B4D8;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+}
+
+.dashboard-container a:hover {
+    background: #00B4D8;
+    border-bottom: solid #0077B6 0px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}

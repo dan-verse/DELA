@@ -1,0 +1,162 @@
+.admin-container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    color: #0077B6;
+    margin-bottom: 10px;
+  }
+  
+  .admin-container p {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+  }
+
+  .admin-user-list {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-user-list h2 {
+    text-align: center;
+    color: #0077B6;
+    margin-bottom: 15px;
+  }
+  
+  /* Override Bootstrap table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #0077B6;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #F8F9FA;
+  }
+  
+  .table-striped tbody tr:nth-child(even) {
+    background-color: #fff;
+  }
+
+  .allocation-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #F8F9FA;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .allocation-container h2 {
+    text-align: center;
+    color: #0077B6;
+    margin-bottom: 20px;
+  }
+  
+  .allocation-container .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .allocation-container .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #90E0EF;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .allocation-container .form-control:focus {
+    border-color: #0077B6;
+    outline: none;
+  }
+  
+  .btn-allocate-bill {
+    width: 100%;
+    padding: 12px;
+    background: #0077B6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .btn-allocate-bill:hover {
+    background: #00B4D8;
+    transform: translateY(-2px);
+  }
+  
+  .btn-allocate-bill:active {
+    transform: translateY(0);
+  }
+
+  .report-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #F8F9FA;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .report-container h2 {
+    color: #0077B6;
+    margin-bottom: 20px;
+  }
+  
+  .btn-excel {
+    padding: 12px 20px;
+    background: #0077B6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .btn-excel:hover {
+    background: #00B4D8;
+    transform: translateY(-2px);
+  }
+  
+  .btn-excel:active {
+    transform: translateY(0);
+  }
+  
+  
